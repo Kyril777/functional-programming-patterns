@@ -3,4 +3,4 @@
 const total = (acc, len) => len + acc
 
 const sumOfLengths = ['Milo', 'Ovaltine'].map(v=>v.length).reduce(total, 0)
-console.log(sumOfLengths) 
+console.log(sumOfLengths) // 12
